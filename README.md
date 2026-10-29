@@ -1,5 +1,7 @@
 # Golan Chess Pro
 
+[Practical guide and cost/PC FAQ](GUIDE.md)
+
 [العربية](README.ar.md)
 
 
@@ -7,7 +9,7 @@ Android chess, training and analysis in Arabic and English. Current version: **1
 
 ## Download and install
 
-Download the APK and complete source ZIP from [Releases](https://github.com/dark9guna/golan-chess-pro/releases). Extract the source ZIP before running the build commands below. Full and Lite are alternative packages of the same application: install one. Both supplied APKs are existing **Debug** builds; they were copied without rebuilding or changing their signatures. Android 7 / API 24 or later is required. Full includes the larger Stockfish 19 network; Lite saves space and has lower playing strength. Save an application backup before updating; replacing an existing installation requires a matching signing certificate.
+Download the APK and complete source ZIP from [Releases](https://github.com/GOLAN2CODE/golan-chess-pro/releases). Extract the source ZIP before running the build commands below. Full and Lite are alternative packages of the same application: install one. Both supplied APKs are existing **Debug** builds; they were copied without rebuilding or changing their signatures. Android 7 / API 24 or later is required. Full includes the larger Stockfish 19 network; Lite saves space and has lower playing strength. Save an application backup before updating; replacing an existing installation requires a matching signing certificate.
 
 ```powershell
 adb install -r Golan-Chess-Pro-1.11.0-Full.apk
